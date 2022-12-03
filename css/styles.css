@@ -1,0 +1,160 @@
+html,
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+/* em unit and % size of font size applies the new size on top of the size that is provided for the parent element.
+    rem ignores the size of the font in parent.*/
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #eaf6f6;
+  height: 0px;
+  border-width: 6px;
+  width: 6%;
+  margin: 100px auto 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+  height: 100%;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin-top: 5%;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.network-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  margin: 10px 20px;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+/*.code-skill-discription {
+  clear: left;
+}*/
+
+/*  display attribute of a css element can have 4 values:
+    inline elements can be arranged on the same line but they do not allow us to change their width.
+    block elements allow us to change their width but they occupy the whole line even if the specified width is smaller than the screen size.
+    inline-block elements allow us to change their width as well as arrange them in the same line.
+    none makes the element disappear.*/
+
+/*  position attribute of a css element can have 4 values:
+    static: it is the default value.
+    relative: it is used to specify the location of the element relative to the position it would have been in when no css was used.
+    changing the relative position of any element does not change the position of any other element.
+    absolute: it is used to specify the location of an element relative to the parent element be it a div or the body.
+    fixed: we set the position of an element to be fixed it we want it to stay whereever it is on the screen even if we scroll the page.
+    */
